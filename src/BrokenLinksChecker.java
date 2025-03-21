@@ -11,7 +11,7 @@ import java.util.List;
 public class BrokenLinksChecker {
     public static void main(String[] args) {
         // Set the path to your ChromeDriver
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "drivers/chromedriver.exe");
 
         // Initialize ChromeDriver
         ChromeOptions options = new ChromeOptions();
